@@ -1,5 +1,5 @@
 # Drowsines Detection using Mediapipe in Python
-
+![DrowsinessDetection](https://github.com/Liorohan10/Drowsiness-Detection/assets/78372186/049cab7d-e0ff-47dd-b48b-b9527d72fab4)
 # Overview
 This project demonstrates a Drowsiness Detection web application using Python, the Mediapipe Face Mesh solution pipeline, and Streamlit. It employs the Eye Aspect Ratio (EAR) technique to identify signs of drowsiness in real-time video streams. The application utilizes the streamlit-webrtc library to facilitate the transmission of video/audio streams over the network.
 
