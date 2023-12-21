@@ -1,44 +1,25 @@
-# Drowsines Detection using Mediapipe in Python
+# Driver Drowsines Detection using Mediapipe in Python
 
-# Overview
-This project demonstrates a Drowsiness Detection web application using Python, the Mediapipe Face Mesh solution pipeline, and Streamlit. It employs the Eye Aspect Ratio (EAR) technique to identify signs of drowsiness in real-time video streams. The application utilizes the streamlit-webrtc library to facilitate the transmission of video/audio streams over the network.
+**This repository contains code for the blog post [Driver Drowsines Detection using Mediapipe in Python](https://learnopencv.com/driver-drowsiness-detection-using-mediapipe-in-python/)**.
 
-# Features
-* Real-time Drowsiness Detection using the Mediapipe Face Mesh solution.
-* Eye Aspect Ratio (EAR) technique for assessing drowsiness.
-* WebRTC integration for streaming live video and audio.
-* Streamlit-based web application for an intuitive user interface.
+In this post, we will:
 
-# Requirements
-Ensure you have the required Python libraries installed:
-* cryptography==38.0.0
-* pyOpenSSL
-* aiortc
-* numpy
-* pydub
-* mediapipe
-* streamlit==1.13.0
-* streamlit_webrtc==0.43.4
-* streamlit-nested-layout==0.1.1
-* altair<5
+* Learn how to detect eye landmarks using the Mediapipe Face Mesh solution pipeline in python.
+* Introduce and demonstrate the Eye Aspect Ratio (EAR) technique.
+* Create a Drowsiness Detection web application using streamlit.
+* Use streamlit-webrtc to help transmit real-time video/audio streams over the network.
+* Deploy it on a cloud service.
 
-# Usage
-1. Run the application in the terminal:
-```python
-streamlit run app.py
-```
-2. Open the provided URL in your web browser.
+[<img src="https://learnopencv.com/wp-content/uploads/2022/07/download-button-e1657285155454.png" alt="download" width="200">](https://www.dropbox.com/scl/fo/5uqodfo3b668xbtqzqqt0/h?dl=1&rlkey=cb2gkzoeobpvyv74299rbdg8c)
 
-3. Allow access to your camera.
+<img src = 'app_image/page_SS.jpg'>
 
-4. Experience real-time drowsiness detection.
+# AI Courses by OpenCV
 
-# How it Works
-The application utilizes the Mediapipe Face Mesh solution to detect eye landmarks in the video stream. The Eye Aspect Ratio (EAR) is calculated by measuring the relative distances between specific landmarks, providing a metric for assessing drowsiness. If the EAR falls below a predefined threshold, the system triggers a drowsiness alert using an alarm.
+Want to become an expert in AI? [AI Courses by OpenCV](https://opencv.org/courses/) is a great place to start.
 
-# Acknowledgments
-This project relies on the following technologies:
-
-* Mediapipe
-* Streamlit
-* streamlit-webrtc
+<a href="https://opencv.org/courses/">
+<p align="center">
+<img src="https://learnopencv.com/wp-content/uploads/2023/01/AI-Courses-By-OpenCV-Github.png">
+</p>
+</a>
