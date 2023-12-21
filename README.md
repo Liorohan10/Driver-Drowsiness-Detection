@@ -25,7 +25,7 @@ altair<5
 # Usage
 1. Run the application:
 ```python
-streamlit run app.py
+streamlit run MainApp.py
 ```
 3. Open the provided URL in your web browser.
 
